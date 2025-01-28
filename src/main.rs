@@ -6,7 +6,6 @@ use serde::{Deserialize, Serialize};
 use std::time::Duration;
 use std::{error::Error, time::SystemTime};
 
-// You'll need to define a custom error type that implements std::error::Error
 #[derive(Debug)]
 struct CustomError(String);
 
